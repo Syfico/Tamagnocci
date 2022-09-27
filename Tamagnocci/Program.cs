@@ -23,8 +23,8 @@ while (minTama.BliTillLiv() == true)
     if (görVad == "1")
     {
         Console.WriteLine("Vadåå för ord?");
-        string word = Console.ReadLine();
-        minTama.Teach(word);
+        string ord = Console.ReadLine();
+        minTama.LärUt(ord);
     }
     if (görVad == "2")
     {
