@@ -53,7 +53,7 @@ public class Tamagnocci
 
     public void PrintStats()
     {
-        Console.WriteLine($"namn: {namn} || Hunger: {hunger} || Tråkometern: {tråkometern} || Ordförråd: {ordlista.Count} antal ord");
+        Console.WriteLine($"namn: {namn} || Hunger: {hunger} || Tråkometern: {tråkometern} || Ordförråd: {ordlista.Count} ord");
     }
 
     public bool BliTillLiv()
